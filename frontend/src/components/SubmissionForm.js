@@ -8,7 +8,7 @@ const SubmissionForm = () => {
 
     let str = JSON.stringify(data);
 
-    fetch("http://localhost:5000/api/articles", {
+    fetch("/api/articles", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
